@@ -1,0 +1,21 @@
+Metric,Value,Notes
+Gross_Sales,452.73,Total revenue from all POS orders
+Total_COGS,113.18,Cost of goods sold for all menu items
+Food_Cost_Percentage,25.0,Industry standard target achieved
+Labor_Cost,180.00,Estimated for lunch shift (8 staff x avg wage)
+Labor_Cost_Percentage,39.8,Slightly above industry average of 35%
+Net_Profit_Before_Tax,159.55,Gross sales minus COGS and labor
+Net_Profit_Margin,35.2,Strong profitability for lunch service
+Average_Ticket_Size,30.18,Total sales divided by 15 orders
+Average_Tips_Per_Server,30.77,Total tips divided by 3 servers
+Credit_Card_Sales,301.82,66.7% of total sales
+Cash_Sales,150.91,33.3% of total sales
+Tax_Collected,36.22,8% sales tax on all orders
+Total_Tips_Paid,92.30,Tips distributed to service staff
+Inventory_Waste_Cost,12.45,Cost of wasted ingredients
+Waste_Percentage,2.8,Acceptable waste level under 3%
+Table_Turnover_Rate,1.5,Average times each table was used
+Peak_Hour_Sales,120.45,Highest sales hour (12:30-1:30 PM)
+Off_Peak_Sales,332.28,Sales during non-peak hours
+Beverage_Sales,95.84,Wine beer and non-alcoholic drinks
+Food_Sales,356.89,All food items excluding beverages

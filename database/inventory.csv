@@ -1,0 +1,52 @@
+Ingredient_Name,Unit,Starting_Qty,Used_Today,Wasted,Ending_Qty,Unit_Cost,Total_Used_Cost
+Beef Patty,pieces,50,18,1,31,2.50,45.00
+Chicken Breast,lbs,20,8,0.5,11.5,4.00,32.00
+Bacon,lbs,10,3,0.2,6.8,6.00,18.00
+Cheddar Cheese,lbs,8,4,0.1,3.9,3.50,14.00
+Lettuce,heads,15,8,1,6,1.50,12.00
+Tomato,lbs,12,6,0.5,5.5,2.00,12.00
+Onion,lbs,10,3,0.2,6.8,1.20,3.60
+Pickles,jars,5,2,0,3,2.50,5.00
+Burger Bun,pieces,60,22,2,36,0.50,11.00
+BBQ Sauce,bottles,3,1,0,2,3.00,3.00
+Onion Rings,lbs,8,2,0.3,5.7,4.00,8.00
+Avocado,pieces,20,6,2,12,1.25,7.50
+Mayo,jars,4,1,0,3,2.50,2.50
+Sourdough Bread,loaves,8,4,0.5,3.5,2.00,8.00
+Salami,lbs,5,2,0.1,2.9,8.00,16.00
+Ham,lbs,5,2,0.1,2.9,7.00,14.00
+Provolone,lbs,4,1.5,0.1,2.4,5.00,7.50
+Italian Herbs,containers,2,0.5,0,1.5,4.00,2.00
+Sub Roll,pieces,25,8,1,16,0.75,6.00
+Romaine Lettuce,heads,12,8,1,3,2.00,16.00
+Parmesan Cheese,lbs,6,3,0.2,2.8,8.00,24.00
+Croutons,bags,4,2,0.1,1.9,3.00,6.00
+Caesar Dressing,bottles,3,2,0,1,4.50,9.00
+Spaghetti,lbs,15,4,0.2,10.8,2.00,8.00
+Pancetta,lbs,3,1.5,0.1,1.4,9.00,13.50
+Eggs,dozen,8,3,0.5,4.5,2.50,7.50
+Black Pepper,containers,2,0.2,0,1.8,5.00,1.00
+Cream,quarts,6,4,0.3,1.7,3.00,12.00
+Fettuccine,lbs,12,3,0.2,8.8,2.50,7.50
+Alfredo Sauce,jars,4,2,0.1,1.9,4.00,8.00
+Garlic,lbs,3,0.5,0.1,2.4,3.00,1.50
+Fish Fillet,lbs,8,4,0.3,3.7,7.00,28.00
+Corn Tortillas,packages,10,6,0.5,3.5,2.00,12.00
+Cabbage,heads,4,2,0.2,1.8,1.50,3.00
+Lime,pieces,20,8,1,11,0.25,2.00
+Sour Cream,containers,6,4,0.2,1.8,2.50,10.00
+Cilantro,bunches,8,3,1,4,1.00,3.00
+Ground Beef,lbs,15,6,0.4,8.6,4.50,27.00
+Beer,bottles,48,12,0,36,2.00,24.00
+Wine,bottles,24,8,0,16,8.00,64.00
+Lemons,lbs,10,4,0.5,5.5,2.00,8.00
+Sugar,lbs,20,2,0.1,17.9,1.50,3.00
+Water,gallons,50,10,0,40,0.50,5.00
+Ice,lbs,100,30,5,65,0.10,3.00
+Chocolate,lbs,5,1.5,0.1,3.4,6.00,9.00
+Flour,lbs,25,3,0.2,21.8,1.00,3.00
+Butter,lbs,8,2,0.1,5.9,4.00,8.00
+Chicken Wings,lbs,12,6,0.4,5.6,5.00,30.00
+Buffalo Sauce,bottles,3,1,0,2,3.50,3.50
+Ranch Dressing,bottles,4,2,0.1,1.9,3.00,6.00
+Celery,bunches,6,3,0.5,2.5,1.50,4.50

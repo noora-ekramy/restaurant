@@ -1,0 +1,16 @@
+Order_ID,Time,Table,Server_Name,Items_Ordered,Subtotal,Tax,Tip,Total,Payment_Method
+ORD001,11:30 AM,5,Sarah Johnson,"Classic Cheeseburger (1), Fresh Lemonade (1)",16.98,1.36,3.40,21.74,Credit Card
+ORD002,11:45 AM,3,Mike Rodriguez,"BBQ Bacon Burger (1), Craft Beer (1)",21.98,1.76,4.40,28.14,Cash
+ORD003,12:00 PM,8,Sarah Johnson,"Grilled Chicken Caesar (1), House Wine (1)",22.98,1.84,4.60,29.42,Credit Card
+ORD004,12:15 PM,2,Lisa Chen,"Fish Tacos (2), Fresh Lemonade (2)",35.96,2.88,7.20,46.04,Credit Card
+ORD005,12:30 PM,7,Mike Rodriguez,"Spaghetti Carbonara (1), House Wine (1)",24.98,2.00,5.00,31.98,Cash
+ORD006,12:45 PM,1,Sarah Johnson,"Wings (1), Caesar Salad (1), Craft Beer (2)",32.96,2.64,6.60,42.20,Credit Card
+ORD007,1:00 PM,4,Lisa Chen,"Italian Sub (1), Beef Tacos (1)",24.98,2.00,5.00,31.98,Debit Card
+ORD008,1:15 PM,6,Mike Rodriguez,"Chicken Alfredo (1), House Wine (1), Chocolate Cake (1)",33.97,2.72,6.80,43.49,Credit Card
+ORD009,1:30 PM,9,Sarah Johnson,"Classic Cheeseburger (2), Craft Beer (2)",37.96,3.04,7.60,48.60,Cash
+ORD010,1:45 PM,10,Lisa Chen,"Grilled Chicken Club (1), Fresh Lemonade (1)",17.48,1.40,3.50,22.38,Credit Card
+ORD011,2:00 PM,3,Mike Rodriguez,"BBQ Bacon Burger (1), Wings (1), Craft Beer (1)",32.97,2.64,6.60,42.21,Credit Card
+ORD012,2:15 PM,5,Sarah Johnson,"Caesar Salad (1), Grilled Chicken Caesar (1), House Wine (1)",32.97,2.64,6.60,42.21,Debit Card
+ORD013,2:30 PM,2,Lisa Chen,"Beef Tacos (2), Fresh Lemonade (2)",33.96,2.72,6.80,43.48,Cash
+ORD014,2:45 PM,8,Mike Rodriguez,"Spaghetti Carbonara (1), Chocolate Cake (1)",24.98,2.00,5.00,31.98,Credit Card
+ORD015,3:00 PM,7,Sarah Johnson,"Fish Tacos (1), House Wine (1), Chocolate Cake (1)",29.97,2.40,6.00,38.37,Credit Card

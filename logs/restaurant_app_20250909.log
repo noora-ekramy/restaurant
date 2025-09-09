@@ -1,0 +1,336 @@
+2025-09-09 03:56:51,522 - INFO - Start Session button clicked
+2025-09-09 03:56:51,523 - INFO - Starting session
+2025-09-09 03:56:51,524 - INFO - Calling upload_files_to_openai
+2025-09-09 03:56:51,524 - INFO - Starting upload_files_to_openai function
+2025-09-09 03:56:51,524 - INFO - Checking for OpenAI API key
+2025-09-09 03:56:51,526 - ERROR - Error accessing Streamlit secrets: No secrets files found. Valid paths for a secrets.toml file are: C:\Users\norae\.streamlit\secrets.toml, F:\Youtiva\Shawn\restaurant\.streamlit\secrets.toml
+2025-09-09 03:56:51,526 - ERROR - OpenAI API key not found. Please add it to your .env file or Streamlit secrets.
+2025-09-09 03:56:51,527 - ERROR - Session setup failed - Assistant: None, File IDs: []
+2025-09-09 03:58:38,811 - INFO - Start Session button clicked
+2025-09-09 03:58:38,812 - INFO - Starting session
+2025-09-09 03:58:38,813 - INFO - Calling upload_files_to_openai
+2025-09-09 03:58:38,813 - INFO - Starting upload_files_to_openai function
+2025-09-09 03:58:38,813 - INFO - Checking for OpenAI API key
+2025-09-09 03:58:38,813 - INFO - .env file exists: True
+2025-09-09 03:58:38,814 - INFO - .env file size: 183 bytes
+2025-09-09 03:58:38,814 - INFO - Environment variable OPENAI_API_KEY: Found
+2025-09-09 03:58:38,814 - INFO - API key found in environment variables
+2025-09-09 03:58:38,814 - INFO - Initializing OpenAI client
+2025-09-09 03:58:39,037 - INFO - Found 10 CSV files to upload
+2025-09-09 03:58:39,039 - INFO - Processing file 1/10: menu.csv
+2025-09-09 03:58:39,040 - INFO - Uploading menu.csv (size: 2262 bytes)
+2025-09-09 03:58:40,332 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:40,335 - INFO - Successfully uploaded menu.csv with ID: file-E8rye3fdxVz5roDB2dssxs
+2025-09-09 03:58:40,336 - INFO - Processing file 2/10: inventory.csv
+2025-09-09 03:58:40,336 - INFO - Uploading inventory.csv (size: 2056 bytes)
+2025-09-09 03:58:41,181 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:41,182 - INFO - Successfully uploaded inventory.csv with ID: file-6JV6LzFMMzZCc9XdXZkKcf
+2025-09-09 03:58:41,182 - INFO - Processing file 3/10: pos_sales.csv
+2025-09-09 03:58:41,183 - INFO - Uploading pos_sales.csv (size: 1728 bytes)
+2025-09-09 03:58:41,917 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:41,918 - INFO - Successfully uploaded pos_sales.csv with ID: file-WuXEzpunniBEkzNnr3JuYX
+2025-09-09 03:58:41,919 - INFO - Processing file 4/10: reservations.csv
+2025-09-09 03:58:41,920 - INFO - Uploading reservations.csv (size: 1353 bytes)
+2025-09-09 03:58:42,447 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:42,448 - INFO - Successfully uploaded reservations.csv with ID: file-NzFPjGEXE8gKq7b4wD5E9p
+2025-09-09 03:58:42,448 - INFO - Processing file 5/10: reviews.csv
+2025-09-09 03:58:42,449 - INFO - Uploading reviews.csv (size: 2523 bytes)
+2025-09-09 03:58:43,011 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:43,011 - INFO - Successfully uploaded reviews.csv with ID: file-7UbvfkypxnpHF1z2DT6xN6
+2025-09-09 03:58:43,011 - INFO - Processing file 6/10: hr_staff.csv
+2025-09-09 03:58:43,012 - INFO - Uploading hr_staff.csv (size: 850 bytes)
+2025-09-09 03:58:43,520 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:43,521 - INFO - Successfully uploaded hr_staff.csv with ID: file-QzfSNsY8V79FVRXCe1kP2h
+2025-09-09 03:58:43,522 - INFO - Processing file 7/10: vendor_supply.csv
+2025-09-09 03:58:43,522 - INFO - Uploading vendor_supply.csv (size: 1740 bytes)
+2025-09-09 03:58:44,217 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:44,217 - INFO - Successfully uploaded vendor_supply.csv with ID: file-LdYLPFeeNYMwXjSwKztYnH
+2025-09-09 03:58:44,218 - INFO - Processing file 8/10: crm_loyalty.csv
+2025-09-09 03:58:44,218 - INFO - Uploading crm_loyalty.csv (size: 1525 bytes)
+2025-09-09 03:58:44,794 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:44,794 - INFO - Successfully uploaded crm_loyalty.csv with ID: file-M8pED9PmDew4YoLnLkpVfR
+2025-09-09 03:58:44,794 - INFO - Processing file 9/10: finance_accounting.csv
+2025-09-09 03:58:44,795 - INFO - Uploading finance_accounting.csv (size: 1155 bytes)
+2025-09-09 03:58:45,317 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:45,318 - INFO - Successfully uploaded finance_accounting.csv with ID: file-FbsyJg3PuygZiAuBDhuTUT
+2025-09-09 03:58:45,319 - INFO - Processing file 10/10: marketing_promotions.csv
+2025-09-09 03:58:45,319 - INFO - Uploading marketing_promotions.csv (size: 1008 bytes)
+2025-09-09 03:58:46,140 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:46,144 - INFO - Successfully uploaded marketing_promotions.csv with ID: file-HKFHcMpninMDMz1MxUp5vm
+2025-09-09 03:58:46,145 - INFO - Creating assistant with 10 files
+2025-09-09 03:58:46,146 - ERROR - Error creating assistant: Assistants.create() got an unexpected keyword argument 'file_ids'
+2025-09-09 03:58:46,147 - ERROR - Session setup failed - Assistant: None, File IDs: ['file-E8rye3fdxVz5roDB2dssxs', 'file-6JV6LzFMMzZCc9XdXZkKcf', 'file-WuXEzpunniBEkzNnr3JuYX', 'file-NzFPjGEXE8gKq7b4wD5E9p', 'file-7UbvfkypxnpHF1z2DT6xN6', 'file-QzfSNsY8V79FVRXCe1kP2h', 'file-LdYLPFeeNYMwXjSwKztYnH', 'file-M8pED9PmDew4YoLnLkpVfR', 'file-FbsyJg3PuygZiAuBDhuTUT', 'file-HKFHcMpninMDMz1MxUp5vm']
+2025-09-09 03:58:57,866 - INFO - Start Session button clicked
+2025-09-09 03:58:57,867 - INFO - Starting session
+2025-09-09 03:58:57,867 - INFO - Calling upload_files_to_openai
+2025-09-09 03:58:57,867 - INFO - Starting upload_files_to_openai function
+2025-09-09 03:58:57,867 - INFO - Checking for OpenAI API key
+2025-09-09 03:58:57,867 - INFO - .env file exists: True
+2025-09-09 03:58:57,868 - INFO - .env file size: 183 bytes
+2025-09-09 03:58:57,868 - INFO - Environment variable OPENAI_API_KEY: Found
+2025-09-09 03:58:57,869 - INFO - API key found in environment variables
+2025-09-09 03:58:57,869 - INFO - Initializing OpenAI client
+2025-09-09 03:58:58,128 - INFO - Found 10 CSV files to upload
+2025-09-09 03:58:58,129 - INFO - Processing file 1/10: menu.csv
+2025-09-09 03:58:58,130 - INFO - Uploading menu.csv (size: 2262 bytes)
+2025-09-09 03:58:59,842 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:58:59,843 - INFO - Successfully uploaded menu.csv with ID: file-PB9rSRcyHtPUavcf574Etg
+2025-09-09 03:58:59,844 - INFO - Processing file 2/10: inventory.csv
+2025-09-09 03:58:59,846 - INFO - Uploading inventory.csv (size: 2056 bytes)
+2025-09-09 03:59:00,684 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:00,684 - INFO - Successfully uploaded inventory.csv with ID: file-BnmfkBPZY6Lk4vtwCP1xDP
+2025-09-09 03:59:00,685 - INFO - Processing file 3/10: pos_sales.csv
+2025-09-09 03:59:00,686 - INFO - Uploading pos_sales.csv (size: 1728 bytes)
+2025-09-09 03:59:02,346 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:02,347 - INFO - Successfully uploaded pos_sales.csv with ID: file-LYPVHigVYCgfCkrZtdc48e
+2025-09-09 03:59:02,347 - INFO - Processing file 4/10: reservations.csv
+2025-09-09 03:59:02,348 - INFO - Uploading reservations.csv (size: 1353 bytes)
+2025-09-09 03:59:03,986 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:03,986 - INFO - Successfully uploaded reservations.csv with ID: file-9dipEsGGqhNPLJN7m8s93q
+2025-09-09 03:59:03,987 - INFO - Processing file 5/10: reviews.csv
+2025-09-09 03:59:03,987 - INFO - Uploading reviews.csv (size: 2523 bytes)
+2025-09-09 03:59:05,054 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:05,054 - INFO - Successfully uploaded reviews.csv with ID: file-KQNpyaDK5hSxjfBvUVHbri
+2025-09-09 03:59:05,056 - INFO - Processing file 6/10: hr_staff.csv
+2025-09-09 03:59:05,056 - INFO - Uploading hr_staff.csv (size: 850 bytes)
+2025-09-09 03:59:05,755 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:05,756 - INFO - Successfully uploaded hr_staff.csv with ID: file-65crbTJ9D8voS9H6sfZbPg
+2025-09-09 03:59:05,756 - INFO - Processing file 7/10: vendor_supply.csv
+2025-09-09 03:59:05,756 - INFO - Uploading vendor_supply.csv (size: 1740 bytes)
+2025-09-09 03:59:06,542 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:06,542 - INFO - Successfully uploaded vendor_supply.csv with ID: file-9kvNPBVpF5yrQLxB5GfBUZ
+2025-09-09 03:59:06,542 - INFO - Processing file 8/10: crm_loyalty.csv
+2025-09-09 03:59:06,543 - INFO - Uploading crm_loyalty.csv (size: 1525 bytes)
+2025-09-09 03:59:07,152 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:07,153 - INFO - Successfully uploaded crm_loyalty.csv with ID: file-SKhTZAmENg6L4gvuxRGTUH
+2025-09-09 03:59:07,154 - INFO - Processing file 9/10: finance_accounting.csv
+2025-09-09 03:59:07,154 - INFO - Uploading finance_accounting.csv (size: 1155 bytes)
+2025-09-09 03:59:07,780 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:07,780 - INFO - Successfully uploaded finance_accounting.csv with ID: file-XVr5zSzWnKfpxt4A1rV3xW
+2025-09-09 03:59:07,780 - INFO - Processing file 10/10: marketing_promotions.csv
+2025-09-09 03:59:07,781 - INFO - Uploading marketing_promotions.csv (size: 1008 bytes)
+2025-09-09 03:59:08,366 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 03:59:08,366 - INFO - Successfully uploaded marketing_promotions.csv with ID: file-YHw2XLz5cw4UjyBrs5poFe
+2025-09-09 03:59:08,367 - INFO - Creating assistant with 10 files
+2025-09-09 03:59:08,367 - ERROR - Error creating assistant: Assistants.create() got an unexpected keyword argument 'file_ids'
+2025-09-09 03:59:08,368 - ERROR - Session setup failed - Assistant: None, File IDs: ['file-PB9rSRcyHtPUavcf574Etg', 'file-BnmfkBPZY6Lk4vtwCP1xDP', 'file-LYPVHigVYCgfCkrZtdc48e', 'file-9dipEsGGqhNPLJN7m8s93q', 'file-KQNpyaDK5hSxjfBvUVHbri', 'file-65crbTJ9D8voS9H6sfZbPg', 'file-9kvNPBVpF5yrQLxB5GfBUZ', 'file-SKhTZAmENg6L4gvuxRGTUH', 'file-XVr5zSzWnKfpxt4A1rV3xW', 'file-YHw2XLz5cw4UjyBrs5poFe']
+2025-09-09 04:00:50,899 - INFO - Start Session button clicked
+2025-09-09 04:00:50,900 - INFO - Starting session
+2025-09-09 04:00:50,900 - INFO - Calling upload_files_to_openai
+2025-09-09 04:00:50,900 - INFO - Starting upload_files_to_openai function
+2025-09-09 04:00:50,901 - INFO - Checking for OpenAI API key
+2025-09-09 04:00:50,901 - INFO - .env file exists: True
+2025-09-09 04:00:50,902 - INFO - .env file size: 183 bytes
+2025-09-09 04:00:50,902 - INFO - Environment variable OPENAI_API_KEY: Found
+2025-09-09 04:00:50,902 - INFO - API key found in environment variables
+2025-09-09 04:00:50,902 - INFO - Initializing OpenAI client
+2025-09-09 04:00:51,153 - INFO - Found 10 CSV files to upload
+2025-09-09 04:00:51,155 - INFO - Processing file 1/10: menu.csv
+2025-09-09 04:00:51,156 - INFO - Uploading menu.csv (size: 2262 bytes)
+2025-09-09 04:00:52,092 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:52,093 - INFO - Successfully uploaded menu.csv with ID: file-1swHqf33vJb5nV8KuLGTZe
+2025-09-09 04:00:52,093 - INFO - Processing file 2/10: inventory.csv
+2025-09-09 04:00:52,093 - INFO - Uploading inventory.csv (size: 2056 bytes)
+2025-09-09 04:00:52,806 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:52,807 - INFO - Successfully uploaded inventory.csv with ID: file-JXUYPtfWZ7e48pfTMJiTtH
+2025-09-09 04:00:52,807 - INFO - Processing file 3/10: pos_sales.csv
+2025-09-09 04:00:52,808 - INFO - Uploading pos_sales.csv (size: 1728 bytes)
+2025-09-09 04:00:53,309 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:53,310 - INFO - Successfully uploaded pos_sales.csv with ID: file-BXuUeBkXvfLpkfx1J8gSsi
+2025-09-09 04:00:53,310 - INFO - Processing file 4/10: reservations.csv
+2025-09-09 04:00:53,311 - INFO - Uploading reservations.csv (size: 1353 bytes)
+2025-09-09 04:00:53,852 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:53,853 - INFO - Successfully uploaded reservations.csv with ID: file-PXWn83TNVtPTChaX7Fatd6
+2025-09-09 04:00:53,854 - INFO - Processing file 5/10: reviews.csv
+2025-09-09 04:00:53,854 - INFO - Uploading reviews.csv (size: 2523 bytes)
+2025-09-09 04:00:54,500 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:54,500 - INFO - Successfully uploaded reviews.csv with ID: file-9DE341qqyyxLXmw8DpGxqw
+2025-09-09 04:00:54,502 - INFO - Processing file 6/10: hr_staff.csv
+2025-09-09 04:00:54,503 - INFO - Uploading hr_staff.csv (size: 850 bytes)
+2025-09-09 04:00:54,977 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:54,977 - INFO - Successfully uploaded hr_staff.csv with ID: file-FS6Hczw8aqucu2fYHALrPr
+2025-09-09 04:00:54,977 - INFO - Processing file 7/10: vendor_supply.csv
+2025-09-09 04:00:54,978 - INFO - Uploading vendor_supply.csv (size: 1740 bytes)
+2025-09-09 04:00:55,648 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:55,649 - INFO - Successfully uploaded vendor_supply.csv with ID: file-HcGFv4n9HLgCPsFS56sD71
+2025-09-09 04:00:55,649 - INFO - Processing file 8/10: crm_loyalty.csv
+2025-09-09 04:00:55,650 - INFO - Uploading crm_loyalty.csv (size: 1525 bytes)
+2025-09-09 04:00:57,524 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:57,524 - INFO - Successfully uploaded crm_loyalty.csv with ID: file-8MXbJJ1JnLGKHiERx59ckw
+2025-09-09 04:00:57,524 - INFO - Processing file 9/10: finance_accounting.csv
+2025-09-09 04:00:57,526 - INFO - Uploading finance_accounting.csv (size: 1155 bytes)
+2025-09-09 04:00:58,127 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:58,128 - INFO - Successfully uploaded finance_accounting.csv with ID: file-XpD88WFzLGVE6LkcF595Ez
+2025-09-09 04:00:58,128 - INFO - Processing file 10/10: marketing_promotions.csv
+2025-09-09 04:00:58,129 - INFO - Uploading marketing_promotions.csv (size: 1008 bytes)
+2025-09-09 04:00:58,723 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:00:58,724 - INFO - Successfully uploaded marketing_promotions.csv with ID: file-GqWxKjDcM9BdAUn6auC9Ez
+2025-09-09 04:00:58,726 - INFO - Creating assistant with 10 files
+2025-09-09 04:00:58,727 - INFO - Attempting to create assistant with current API format...
+2025-09-09 04:00:59,300 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2025-09-09 04:00:59,308 - INFO - Successfully created assistant with ID: asst_4uQG75Rphh34P2Gefw8khL0s
+2025-09-09 04:00:59,308 - INFO - Attaching files to assistant using tool_resources...
+2025-09-09 04:01:02,115 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_4uQG75Rphh34P2Gefw8khL0s "HTTP/1.1 200 OK"
+2025-09-09 04:01:02,116 - INFO - Successfully attached 10 files to assistant
+2025-09-09 04:01:03,117 - INFO - upload_files_to_openai completed successfully
+2025-09-09 04:01:03,117 - INFO - Session setup successful - Assistant ID: asst_4uQG75Rphh34P2Gefw8khL0s, Files: 10
+2025-09-09 04:01:03,118 - INFO - Session started successfully! Created AI assistant with 10 files for code interpreter analysis.
+2025-09-09 04:02:26,726 - INFO - Start Session button clicked
+2025-09-09 04:02:26,729 - INFO - Starting session
+2025-09-09 04:02:26,730 - INFO - Calling upload_files_to_openai
+2025-09-09 04:02:26,730 - INFO - Starting upload_files_to_openai function
+2025-09-09 04:02:26,730 - INFO - Checking for OpenAI API key
+2025-09-09 04:02:26,731 - INFO - .env file exists: True
+2025-09-09 04:02:26,731 - INFO - .env file size: 183 bytes
+2025-09-09 04:02:26,731 - INFO - Environment variable OPENAI_API_KEY: Found
+2025-09-09 04:02:26,731 - INFO - API key found in environment variables
+2025-09-09 04:02:26,732 - INFO - Initializing OpenAI client
+2025-09-09 04:02:26,967 - INFO - Found 10 CSV files to upload
+2025-09-09 04:02:26,969 - INFO - Processing file 1/10: menu.csv
+2025-09-09 04:02:26,971 - INFO - Uploading menu.csv (size: 2262 bytes)
+2025-09-09 04:02:27,949 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:27,950 - INFO - Successfully uploaded menu.csv with ID: file-3APmVcEshzmsW6LMS2Pxjp
+2025-09-09 04:02:27,951 - INFO - Processing file 2/10: inventory.csv
+2025-09-09 04:02:27,951 - INFO - Uploading inventory.csv (size: 2056 bytes)
+2025-09-09 04:02:28,492 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:28,493 - INFO - Successfully uploaded inventory.csv with ID: file-XCtEASFMtCUHfCEodLsgKa
+2025-09-09 04:02:28,494 - INFO - Processing file 3/10: pos_sales.csv
+2025-09-09 04:02:28,495 - INFO - Uploading pos_sales.csv (size: 1728 bytes)
+2025-09-09 04:02:29,111 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:29,112 - INFO - Successfully uploaded pos_sales.csv with ID: file-8RLdRH7t6Uk72criLbSds8
+2025-09-09 04:02:29,112 - INFO - Processing file 4/10: reservations.csv
+2025-09-09 04:02:29,112 - INFO - Uploading reservations.csv (size: 1353 bytes)
+2025-09-09 04:02:29,970 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:29,970 - INFO - Successfully uploaded reservations.csv with ID: file-FXpkp5uVCCvN44wzDtpATr
+2025-09-09 04:02:29,971 - INFO - Processing file 5/10: reviews.csv
+2025-09-09 04:02:29,971 - INFO - Uploading reviews.csv (size: 2523 bytes)
+2025-09-09 04:02:30,570 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:30,570 - INFO - Successfully uploaded reviews.csv with ID: file-KHBBXozMRsyV5XDrRMVEdd
+2025-09-09 04:02:30,571 - INFO - Processing file 6/10: hr_staff.csv
+2025-09-09 04:02:30,571 - INFO - Uploading hr_staff.csv (size: 850 bytes)
+2025-09-09 04:02:31,082 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:31,082 - INFO - Successfully uploaded hr_staff.csv with ID: file-PEELeLAnj8c6DbmKfN49zH
+2025-09-09 04:02:31,083 - INFO - Processing file 7/10: vendor_supply.csv
+2025-09-09 04:02:31,084 - INFO - Uploading vendor_supply.csv (size: 1740 bytes)
+2025-09-09 04:02:31,826 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:31,827 - INFO - Successfully uploaded vendor_supply.csv with ID: file-1tnQv992tfpAQWCB114yBX
+2025-09-09 04:02:31,828 - INFO - Processing file 8/10: crm_loyalty.csv
+2025-09-09 04:02:31,829 - INFO - Uploading crm_loyalty.csv (size: 1525 bytes)
+2025-09-09 04:02:32,726 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:32,726 - INFO - Successfully uploaded crm_loyalty.csv with ID: file-Vj7KCTD9CCbsH5BPUEvX3k
+2025-09-09 04:02:32,727 - INFO - Processing file 9/10: finance_accounting.csv
+2025-09-09 04:02:32,728 - INFO - Uploading finance_accounting.csv (size: 1155 bytes)
+2025-09-09 04:02:33,302 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:33,304 - INFO - Successfully uploaded finance_accounting.csv with ID: file-9saaGwDjkqAzQDjunCtsNv
+2025-09-09 04:02:33,305 - INFO - Processing file 10/10: marketing_promotions.csv
+2025-09-09 04:02:33,308 - INFO - Uploading marketing_promotions.csv (size: 1008 bytes)
+2025-09-09 04:02:34,039 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:02:34,040 - INFO - Successfully uploaded marketing_promotions.csv with ID: file-54a1fLyTxEdUxj57SRGsiV
+2025-09-09 04:02:34,040 - INFO - Creating assistant with 10 files
+2025-09-09 04:02:34,040 - INFO - Attempting to create assistant with current API format...
+2025-09-09 04:02:36,102 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2025-09-09 04:02:36,108 - INFO - Successfully created assistant with ID: asst_TBhiUEwK8NeiF14P9xVY1bhU
+2025-09-09 04:02:36,108 - INFO - Attaching files to assistant using tool_resources...
+2025-09-09 04:02:40,135 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_TBhiUEwK8NeiF14P9xVY1bhU "HTTP/1.1 200 OK"
+2025-09-09 04:02:40,135 - INFO - Successfully attached 10 files to assistant
+2025-09-09 04:02:41,137 - INFO - upload_files_to_openai completed successfully
+2025-09-09 04:02:41,137 - INFO - Session setup successful - Assistant ID: asst_TBhiUEwK8NeiF14P9xVY1bhU, Files: 10
+2025-09-09 04:02:41,138 - INFO - Session started successfully! Created AI assistant with 10 files for code interpreter analysis.
+2025-09-09 04:12:14,816 - INFO - Start Session button clicked
+2025-09-09 04:12:14,816 - INFO - Starting session
+2025-09-09 04:12:14,817 - INFO - Calling upload_files_to_openai
+2025-09-09 04:12:14,817 - INFO - Starting upload_files_to_openai function
+2025-09-09 04:12:14,817 - INFO - Checking for OpenAI API key
+2025-09-09 04:12:14,817 - INFO - .env file exists: True
+2025-09-09 04:12:14,817 - INFO - .env file size: 183 bytes
+2025-09-09 04:12:14,818 - INFO - Environment variable OPENAI_API_KEY: Found
+2025-09-09 04:12:14,818 - INFO - API key found in environment variables
+2025-09-09 04:12:14,818 - INFO - Initializing OpenAI client
+2025-09-09 04:12:14,993 - INFO - Found 10 CSV files to upload
+2025-09-09 04:12:14,994 - INFO - Processing file 1/10: menu.csv
+2025-09-09 04:12:14,995 - INFO - Uploading menu.csv (size: 2262 bytes)
+2025-09-09 04:12:15,908 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:15,909 - INFO - Successfully uploaded menu.csv with ID: file-4J7yMK6nXVRSCRcG6ribnk
+2025-09-09 04:12:15,909 - INFO - Processing file 2/10: inventory.csv
+2025-09-09 04:12:15,910 - INFO - Uploading inventory.csv (size: 2056 bytes)
+2025-09-09 04:12:17,032 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:17,033 - INFO - Successfully uploaded inventory.csv with ID: file-FRiw2DT8w6mXcwz6q7BUJi
+2025-09-09 04:12:17,033 - INFO - Processing file 3/10: pos_sales.csv
+2025-09-09 04:12:17,034 - INFO - Uploading pos_sales.csv (size: 1728 bytes)
+2025-09-09 04:12:17,601 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:17,601 - INFO - Successfully uploaded pos_sales.csv with ID: file-SvmKfRbX9hzNaRrfXxsGBW
+2025-09-09 04:12:17,602 - INFO - Processing file 4/10: reservations.csv
+2025-09-09 04:12:17,602 - INFO - Uploading reservations.csv (size: 1353 bytes)
+2025-09-09 04:12:18,131 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:18,132 - INFO - Successfully uploaded reservations.csv with ID: file-Akt3gGHgcJFQBk4ysryqid
+2025-09-09 04:12:18,132 - INFO - Processing file 5/10: reviews.csv
+2025-09-09 04:12:18,133 - INFO - Uploading reviews.csv (size: 2523 bytes)
+2025-09-09 04:12:18,839 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:18,840 - INFO - Successfully uploaded reviews.csv with ID: file-CBsBma6SAzr8iknYjKeepm
+2025-09-09 04:12:18,840 - INFO - Processing file 6/10: hr_staff.csv
+2025-09-09 04:12:18,841 - INFO - Uploading hr_staff.csv (size: 850 bytes)
+2025-09-09 04:12:19,334 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:19,335 - INFO - Successfully uploaded hr_staff.csv with ID: file-7DP91RxMCZ8mvWSAP1KuhK
+2025-09-09 04:12:19,335 - INFO - Processing file 7/10: vendor_supply.csv
+2025-09-09 04:12:19,336 - INFO - Uploading vendor_supply.csv (size: 1740 bytes)
+2025-09-09 04:12:19,963 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:19,963 - INFO - Successfully uploaded vendor_supply.csv with ID: file-UXNwa4S13Jt7iRUhhVrbgZ
+2025-09-09 04:12:19,963 - INFO - Processing file 8/10: crm_loyalty.csv
+2025-09-09 04:12:19,964 - INFO - Uploading crm_loyalty.csv (size: 1525 bytes)
+2025-09-09 04:12:20,859 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:20,860 - INFO - Successfully uploaded crm_loyalty.csv with ID: file-EseDmE6jftVBG88o1nmjYT
+2025-09-09 04:12:20,860 - INFO - Processing file 9/10: finance_accounting.csv
+2025-09-09 04:12:20,861 - INFO - Uploading finance_accounting.csv (size: 1155 bytes)
+2025-09-09 04:12:21,375 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:21,376 - INFO - Successfully uploaded finance_accounting.csv with ID: file-Hidoz59qJ8ccieVkEnfb9M
+2025-09-09 04:12:21,376 - INFO - Processing file 10/10: marketing_promotions.csv
+2025-09-09 04:12:21,378 - INFO - Uploading marketing_promotions.csv (size: 1008 bytes)
+2025-09-09 04:12:21,989 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-09 04:12:21,989 - INFO - Successfully uploaded marketing_promotions.csv with ID: file-TV7y3xZZiSfEGQyU5J6HW6
+2025-09-09 04:12:21,990 - INFO - Creating assistant with 10 files
+2025-09-09 04:12:21,990 - INFO - Attempting to create assistant with current API format...
+2025-09-09 04:12:23,756 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants "HTTP/1.1 200 OK"
+2025-09-09 04:12:23,762 - INFO - Successfully created assistant with ID: asst_NrpfO9HNk5n1bkH9PlySbtR5
+2025-09-09 04:12:23,762 - INFO - Attaching files to assistant using tool_resources...
+2025-09-09 04:12:27,318 - INFO - HTTP Request: POST https://api.openai.com/v1/assistants/asst_NrpfO9HNk5n1bkH9PlySbtR5 "HTTP/1.1 200 OK"
+2025-09-09 04:12:27,319 - INFO - Successfully attached 10 files to assistant
+2025-09-09 04:12:28,320 - INFO - upload_files_to_openai completed successfully
+2025-09-09 04:12:28,320 - INFO - Session setup successful - Assistant ID: asst_NrpfO9HNk5n1bkH9PlySbtR5, Files: 10
+2025-09-09 04:12:28,321 - INFO - Session started successfully! Created AI assistant with 10 files for code interpreter analysis.
+2025-09-09 04:12:33,456 - INFO - Starting analysis with query: hello...
+2025-09-09 04:12:33,609 - INFO - Creating thread for assistant asst_NrpfO9HNk5n1bkH9PlySbtR5
+2025-09-09 04:12:34,139 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-09-09 04:12:34,141 - INFO - Created thread with ID: thread_16EIHd5gpozABUzktittDm4b
+2025-09-09 04:12:34,641 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_16EIHd5gpozABUzktittDm4b/messages "HTTP/1.1 200 OK"
+2025-09-09 04:12:34,651 - INFO - Added user message to thread
+2025-09-09 04:12:34,651 - INFO - Starting streaming run...
+2025-09-09 04:12:36,759 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_16EIHd5gpozABUzktittDm4b/runs "HTTP/1.1 200 OK"
+2025-09-09 04:12:39,827 - INFO - Message completed
+2025-09-09 04:12:40,302 - INFO - Run completed successfully
+2025-09-09 04:12:40,338 - INFO - Analysis completed successfully
+2025-09-09 04:12:54,875 - INFO - Starting analysis with query: Are there items frequently ordered together?...
+2025-09-09 04:12:55,040 - INFO - Creating thread for assistant asst_NrpfO9HNk5n1bkH9PlySbtR5
+2025-09-09 04:12:55,586 - INFO - HTTP Request: POST https://api.openai.com/v1/threads "HTTP/1.1 200 OK"
+2025-09-09 04:12:55,587 - INFO - Created thread with ID: thread_wbFi0vSHuzf2yrl3bd4h33h1
+2025-09-09 04:12:56,038 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_wbFi0vSHuzf2yrl3bd4h33h1/messages "HTTP/1.1 200 OK"
+2025-09-09 04:12:56,041 - INFO - Added user message to thread
+2025-09-09 04:12:56,041 - INFO - Starting streaming run...
+2025-09-09 04:13:06,760 - INFO - HTTP Request: POST https://api.openai.com/v1/threads/thread_wbFi0vSHuzf2yrl3bd4h33h1/runs "HTTP/1.1 200 OK"
+2025-09-09 04:13:34,998 - INFO - Message completed
+2025-09-09 04:13:56,646 - ERROR - Error during analysis: The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_1c8ac7c5f0df9f25070fc39009f3ca69 in your email.)
+Traceback (most recent call last):
+  File "F:\Youtiva\Shawn\restaurant\main.py", line 318, in analyze_with_assistant
+    for event in stream:
+                 ^^^^^^
+  File "D:\My_APP_DATA\Anaconda\Lib\site-packages\openai\lib\streaming\_assistants.py", line 69, in __iter__
+    for item in self._iterator:
+                ^^^^^^^^^^^^^^
+  File "D:\My_APP_DATA\Anaconda\Lib\site-packages\openai\lib\streaming\_assistants.py", line 405, in __stream__
+    for event in stream:
+                 ^^^^^^
+  File "D:\My_APP_DATA\Anaconda\Lib\site-packages\openai\_streaming.py", line 46, in __iter__
+    for item in self._iterator:
+                ^^^^^^^^^^^^^^
+  File "D:\My_APP_DATA\Anaconda\Lib\site-packages\openai\_streaming.py", line 91, in __stream__
+    raise APIError(
+openai.APIError: The server had an error processing your request. Sorry about that! You can retry your request, or contact us through our help center at help.openai.com if you keep seeing this error. (Please include the request ID req_1c8ac7c5f0df9f25070fc39009f3ca69 in your email.)

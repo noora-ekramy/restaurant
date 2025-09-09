@@ -1,0 +1,9 @@
+Staff_ID,Name,Role,Shift_Start,Shift_End,Tables_Served,Total_Tips,Attendance_Notes
+STF001,Sarah Johnson,Server,11:00 AM,4:00 PM,"1,3,5,8,9,10",33.80,On time - excellent performance
+STF002,Mike Rodriguez,Server,11:00 AM,4:00 PM,"2,4,6,7,11",29.60,On time - good customer feedback
+STF003,Lisa Chen,Server,11:00 AM,4:00 PM,"1,2,4,10,15",28.90,On time - handled dietary restrictions well
+STF004,David Martinez,Kitchen Manager,10:00 AM,6:00 PM,N/A,0.00,Early arrival - supervised lunch prep
+STF005,Jennifer Kim,Host,10:30 AM,5:00 PM,N/A,0.00,Managed reservations efficiently
+STF006,Robert Thompson,Bartender,11:00 AM,4:00 PM,N/A,45.50,High beverage sales during lunch
+STF007,Maria Gonzalez,Busser,11:00 AM,4:00 PM,All tables,15.20,Quick table turnaround times
+STF008,James Wilson,Cook,10:30 AM,5:00 PM,N/A,0.00,Consistent food quality and timing

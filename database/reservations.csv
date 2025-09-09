@@ -1,0 +1,16 @@
+Reservation_ID,Time,Guest_Name,Party_Size,Table,Server_Assigned,Status,Source,Notes
+RES001,11:30 AM,Johnson Family,4,5,Sarah Johnson,Seated,OpenTable,Anniversary celebration
+RES002,11:45 AM,Rodriguez Mike,2,3,Mike Rodriguez,Seated,Phone,Regular customer
+RES003,12:00 PM,Smith Jennifer,3,8,Sarah Johnson,Seated,Walk-in,Requested quiet table
+RES004,12:15 PM,Garcia Family,6,2,Lisa Chen,Seated,OpenTable,Birthday party - child friendly
+RES005,12:30 PM,Thompson David,2,7,Mike Rodriguez,Seated,Yelp,Business lunch
+RES006,12:45 PM,Wilson Party,8,1,Sarah Johnson,Seated,Phone,Company meeting
+RES007,1:00 PM,Brown Lisa,2,4,Lisa Chen,Seated,Walk-in,Dietary restrictions - gluten free
+RES008,1:15 PM,Davis Robert,4,6,Mike Rodriguez,Seated,OpenTable,Special occasion
+RES009,1:30 PM,Miller Group,5,9,Sarah Johnson,Seated,Phone,Celebrating promotion
+RES010,1:45 PM,Anderson Kate,3,10,Lisa Chen,Seated,Walk-in,First time visitor
+RES011,2:00 PM,Taylor James,2,3,Mike Rodriguez,No-show,OpenTable,No-show after 15 minutes
+RES012,2:15 PM,White Family,4,5,Sarah Johnson,Cancelled,Phone,Called to cancel - sick child
+RES013,6:30 PM,Clark Susan,2,8,Sarah Johnson,Confirmed,OpenTable,Dinner reservation
+RES014,7:00 PM,Lewis Party,6,1,Mike Rodriguez,Confirmed,Phone,Weekend dinner
+RES015,7:30 PM,Hall Michael,4,2,Lisa Chen,Confirmed,Walk-in,Waiting for table

@@ -1,0 +1,16 @@
+Item_ID,Menu_Category,Item_Name,Description,Ingredients_Used,Price,Estimated_COGS,Margin_Percent
+M001,Burgers,Classic Cheeseburger,Juicy beef patty with cheddar cheese and fresh toppings,"Beef Patty, Cheddar Cheese, Lettuce, Tomato, Onion, Pickles, Burger Bun",12.99,3.25,75.0
+M002,Burgers,BBQ Bacon Burger,Smoky BBQ sauce with crispy bacon and onion rings,"Beef Patty, Bacon, BBQ Sauce, Onion Rings, Lettuce, Burger Bun",15.99,4.10,74.3
+M003,Sandwiches,Grilled Chicken Club,Grilled chicken breast with bacon and avocado,"Chicken Breast, Bacon, Avocado, Lettuce, Tomato, Mayo, Sourdough Bread",13.49,3.50,74.1
+M004,Sandwiches,Italian Sub,Classic Italian meats and cheeses with fresh herbs,"Salami, Ham, Provolone, Lettuce, Tomato, Italian Herbs, Sub Roll",11.99,3.00,75.0
+M005,Salads,Caesar Salad,Crisp romaine with parmesan and house-made croutons,"Romaine Lettuce, Parmesan Cheese, Croutons, Caesar Dressing",9.99,2.50,75.0
+M006,Salads,Grilled Chicken Caesar,Our signature Caesar topped with grilled chicken,"Romaine Lettuce, Chicken Breast, Parmesan Cheese, Croutons, Caesar Dressing",14.99,3.75,75.0
+M007,Pasta,Spaghetti Carbonara,Traditional Italian pasta with pancetta and parmesan,"Spaghetti, Pancetta, Parmesan Cheese, Eggs, Black Pepper, Cream",16.99,4.25,75.0
+M008,Pasta,Chicken Alfredo,Creamy alfredo sauce with tender chicken pieces,"Fettuccine, Chicken Breast, Alfredo Sauce, Parmesan Cheese, Garlic",17.99,4.50,75.0
+M009,Tacos,Fish Tacos,Fresh grilled fish with cabbage slaw and lime crema,"Fish Fillet, Corn Tortillas, Cabbage, Lime, Sour Cream, Cilantro",13.99,3.50,75.0
+M010,Tacos,Beef Tacos,Seasoned ground beef with traditional toppings,"Ground Beef, Corn Tortillas, Lettuce, Tomato, Cheddar Cheese, Sour Cream",12.99,3.25,75.0
+M011,Drinks,Craft Beer,Local brewery selection,Beer,5.99,1.50,75.0
+M012,Drinks,House Wine,Red or white wine selection,Wine,7.99,2.00,75.0
+M013,Drinks,Fresh Lemonade,House-made with real lemons,"Lemons, Sugar, Water, Ice",3.99,1.00,75.0
+M014,Desserts,Chocolate Cake,Rich chocolate layer cake with ganache,"Chocolate, Flour, Sugar, Eggs, Butter, Cream",7.99,2.00,75.0
+M015,Appetizers,Wings,Buffalo or BBQ chicken wings with ranch,"Chicken Wings, Buffalo Sauce, Ranch Dressing, Celery",10.99,2.75,75.0
