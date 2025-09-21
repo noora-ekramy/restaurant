@@ -437,9 +437,9 @@ def show_home_page():
         **Get your API key from:** https://platform.openai.com/api-keys
         """)
     elif streamlit_api_key:
-        st.success("✅ OpenAI API key configured via Streamlit Secrets")
+        st.success("✅  Trex configured via Streamlit Secrets")
     elif api_key:
-        st.success("✅ OpenAI API key configured via system environment variable")
+        st.success("✅ Trex configured via system environment variable")
     
     # Start Session button
     if not st.session_state.session_active:
