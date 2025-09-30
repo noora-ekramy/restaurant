@@ -174,7 +174,7 @@ def upload_files_to_openai():
             assistant = client.beta.assistants.create(
                 name="Restaurant Operations Data Analyst",
                 instructions="You are an expert restaurant operations data analyst. Analyze restaurant data including menu, inventory, sales, reservations, reviews, staff, vendors, CRM, finance, and marketing data to provide comprehensive insights and recommendations.",
-                model="gpt-4-turbo-preview",
+                model="gpt-4o",
                 tools=[{"type": "code_interpreter"}]
             )
             logger.info(f"Successfully created assistant with ID: {assistant.id}")
